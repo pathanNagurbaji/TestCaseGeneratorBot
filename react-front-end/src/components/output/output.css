@@ -1,0 +1,59 @@
+.output-section{
+    border: 2px solid;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    height: 650px;
+    background-color: black;
+    /* background-color: rgba(66, 49, 49, 0.89); */
+    border-color: brown;
+}
+
+.output-textarea {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 12px;
+    border-radius: 14px;
+    min-width: 300px;
+    height: 570px;
+    width: 96%;
+    resize: none;
+    border: none;
+    outline: none;
+    padding: 13px;
+    background-color: black;
+    color: rgb(21, 134, 21);
+}
+
+
+.output-button{
+    cursor: pointer;
+    background-color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    height: 10%;
+    width: 5%;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.output-button:active{
+    background-color: rgb(4, 4, 100);
+}
+
+.copy-button{
+    display: flex;
+    justify-content: start;
+    height: 4%;
+    text-align: center;
+    margin-top: 0.5%;
+    margin-left: 0.5%;
+    border-radius: 7px;
+    padding: 3px;
+    background-color: rgb(107, 101, 101);
+    color: rgb(189, 178, 178);
+    max-width: 8%;
+}
